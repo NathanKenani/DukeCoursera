@@ -80,7 +80,7 @@ public class codonCount
     }
     public void tester() {
        
-        int start = 1;
+        int start = 0;
         // String dna = "CGTTCAAGTTCAA";
         FileResource fr = new FileResource("dnaMystery2.txt");
         String dna = fr.asString();

@@ -37,23 +37,21 @@ public class CharactersInPlay
         String name = "";
         FileResource fr = new FileResource();
         for (String s: fr.lines()) {
-            s = s.toLowerCase();
+            s = s.toUpperCase();
             int index = s.indexOf(".");
             int length = s.length();
             // count += 1;
-            if (index != -1 && (index != length-1 || s.startsWith(" "))) {
-                name = s.substring(0,index);
-                // count += 1;
-               
+            if (index != -1 ) {
+                name = s.substring(0,index).trim();
                 update(name);
                 
             }
         }
-        System.out.println(count);
+        // System.out.println(count);
     }
     public void tester() {
         int num1 = 10;
-        int num2 = 100;
+        int num2 = 200;
         CharactersWithNumParts(num1,num2);
         int max = findMax();
         System.out.println("Character with most speaking parts are: " 

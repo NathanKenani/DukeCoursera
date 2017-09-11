@@ -49,7 +49,7 @@ public class WordFrequencies
         findUnique();
         System.out.println("# of unique words: " + myWords.size());
         for(int k =0; k < myWords.size(); k++) {
-            if (myFreqs.get(k) > 100) {
+            if (myFreqs.get(k) > 300) {
                 System.out.println(myFreqs.get(k) + "  " +  myWords.get(k));
             }
         }

@@ -24,7 +24,7 @@ public class wordsInFile
         FileResource fr = new FileResource(f);
         
         for(String w: fr.words()) {
-            w = w.toLowerCase();
+            // w = w.toLowerCase();
            
             if (map.containsKey(w)) {
                 // words.add(w);
@@ -39,7 +39,7 @@ public class wordsInFile
             else {
                 ArrayList<String> array = new ArrayList<String>();
                 array.add(fName);
-              map.put(w,array);
+                map.put(w,array);
                 
             }
         }
@@ -52,13 +52,10 @@ public class wordsInFile
         }
     }
     private int maxNumber() {
-        int num = 0;
         int max = 0;
-        for(String w: map.keySet()) {
-            w = w.toLowerCase();
-            num = map.get(w).size();
-            if(max < num) {
-                max = num;
+        for(ArrayList<String> list: map.values()) {
+            if (list.size() > max) {
+               max = list.size();
             }
         }
         // System.out.println(max);
@@ -72,10 +69,8 @@ public class wordsInFile
             numFiles = curr.size();
             // System.out.println(map.get(word).size()); 
             if (numFiles == num) {
-                char ch = word.charAt(word.length()-1);
-                if (Character.isLetter(ch)) {
-                    list.add(word);   
-                }
+                list.add(word);   
+           
             }
         }
         return list;
@@ -101,15 +96,15 @@ public class wordsInFile
         ArrayList<String> words = wordsInNumFiles(great);
         System.out.println("Total words in files: "+words.size());
         
-        int num = 7;
-        ArrayList<String> find = wordsInNumFiles(7);
+        int num = 4;
+        ArrayList<String> find = wordsInNumFiles(4);
         // find = wordsInNumFiles(7);
         System.out.println("Words in " +num+" files are: "+ find);
         System.out.println("The number of words is: "+find.size());
         for (int k =0; k <find.size();k++) {
             // System.out.println(find.get(k)+" "); 
         }
-        String str = "laid";
+        String str = "tree";
         printFilesIn(str);
     }
 }
