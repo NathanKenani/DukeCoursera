@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=InstallerProps
+comment0.text=\n\ This\ is\ a\ small\ program\ to\ get\ the\ size\ of\ the\ jar\ file\ which\ is\ extracted\ during\ the\n\ BlueJ\ installation\ (unix\ installer),\ and\ write\ the\ size\ to\ a\ property\ in\ a\ properties\n\ file.\n\ \n\ @author\ Davin\ McCall\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

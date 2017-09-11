@@ -1,0 +1,55 @@
+
+ALEXA COMMANDS
+
+Alexa simon says…….
+Alexa 	twenty questions
+Alexa 	open quick event
+Alexa 	start peaceful habit
+Alexa 	ask national day tracker what’s being celebrated today
+Alexa 	start audio hangman
+Alexa 	play jeopardy!
+Alexa 	open starlanes
+Alexa 	open the wayne investigation
+Alexa play classical study music
+Alexa what’s my flash briefing
+Alexa open word master
+Alexa start animal game
+Alexa begin guessing game
+Alexa tell me a joke
+Alexa sing me a song
+Alexa ask lyft for a ride
+Alexa trigger find my phone
+Alexa  trigger turn on bluetooth
+Alexa my phone wifi
+Alexa open travel time
+Alexa start gayatri mantra
+Alexa ask insult generator to generate an insult
+Alexa triggur unsilence phone
+Alexa ask ted talks to play the latest Talk / something funny
+Open open sleep sound /play music box
+Alexa inspire me
+Alexa this day in history
+Alexa open complibot
+Alexa open Dr. A.I
+Alexa open curiosity
+Alexa open focus word.
+Alexa ask space geek to  tell me a fact
+Alexa open life hacks
+Alexa tell smack talker no speak to **
+Alexa open football facts
+Alexa ask development tips ……..
+Alexa osk job hunt to tell jobs near me
+Alexa ask machine learning trivia a fact
+Alexa open career advisor
+Alexa, launch born A.I
+Alexa, open geeky jokes
+Alexa ask adulting guide for career, car, life advise
+Alexa open coding thoughts
+Alexa launch coding fact
+Alexa ask pep talk for pep 8a
+Alexa launch coding events
+Alexa open whiteboard
+Alexa read my audible book
+Alexa open itune radio
+Alexa open, where is my phone.
+Alexa, ask what’s my sign for taurus.

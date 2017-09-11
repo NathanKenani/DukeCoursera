@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=part5
+comment1.params=parser
+comment1.target=double\ averageTemperatureInFile(org.apache.commons.csv.CSVParser)
+comment2.params=
+comment2.target=void\ testAverageTemperature()
+numComments=3

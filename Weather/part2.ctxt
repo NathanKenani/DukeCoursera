@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=part2
+comment1.params=parser
+comment1.target=org.apache.commons.csv.CSVRecord\ coldestHourInData(org.apache.commons.csv.CSVParser)
+comment2.params=
+comment2.target=java.io.File\ fileWithColdestTemperature()
+comment3.params=
+comment3.target=void\ testFileWithColdest()
+numComments=4
