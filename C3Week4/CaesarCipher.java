@@ -1,3 +1,7 @@
+/**
+* This program uses 2nd object oriented design to encrypt and decrypt
+* messages. A constructor is used to take the key
+*/
 import edu.duke.*;
 
 public class CaesarCipher {
